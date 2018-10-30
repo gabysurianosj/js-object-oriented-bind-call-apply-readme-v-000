@@ -7,5 +7,8 @@ class Event {
 }
 
 class User {
-  constructor()
+  constructor(name, interests) {
+    this.name = name;
+    this.interests = interests; 
+  }
 }
