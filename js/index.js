@@ -17,7 +17,7 @@ class User {
       function(word) {
         return this.interests.includes(word);
       }.bind(this)
-    )
+    );
   }
 
 }
