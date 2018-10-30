@@ -12,5 +12,6 @@ class User {
     this.interests = interests;
   }
 
+  matchInterests(event) {}
 
 }
