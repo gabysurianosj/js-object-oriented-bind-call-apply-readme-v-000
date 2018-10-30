@@ -12,6 +12,8 @@ class User {
     this.interests = interests;
   }
 
-  matchInterests(event) {}
+  matchInterests(event) {
+    return event.keywords.some()
+  }
 
 }
